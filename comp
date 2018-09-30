@@ -1,0 +1,8 @@
+g++ -c record.cpp
+g++ -c package.cpp
+g++ -c database.cpp
+
+g++ record.o package.o database.o main.cpp -o main
+
+rm *.o
+
